@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tweet-scraper-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2
+    envVars:
+      - key: API_TOKEN
+        sync: false          # Render ダッシュボードで手動設定（省略可）
+    autoDeploy: true

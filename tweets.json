@@ -1,0 +1,147 @@
+{
+  "username": "elonmusk",
+  "fetched_at": "2026-09-03T09:12:55.742626+00:00",
+  "count": 10,
+  "tweets": [
+    {
+      "id": "2095364595326263447",
+      "text": "A Storm of Cybercabs",
+      "published_at": "Thu Sep 03 04:13:44 +0000 2026",
+      "url": "https://twitter.com/elonmusk/status/2095364595326263447",
+      "stats": {
+        "reply_count": 2299,
+        "retweet_count": 2504,
+        "like_count": 31758,
+        "quote_count": 506
+      },
+      "images": []
+    },
+    {
+      "id": "1519480761749016577",
+      "text": "Next I’m buying Coca-Cola to put the cocaine back in",
+      "published_at": "Thu Apr 28 00:56:58 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1519480761749016577",
+      "stats": {
+        "reply_count": 167745,
+        "retweet_count": 577647,
+        "like_count": 4197182,
+        "quote_count": 168199
+      },
+      "images": []
+    },
+    {
+      "id": "1812258574049157405",
+      "text": "https://t.co/6eOgN9UdOy",
+      "published_at": "Sat Jul 13 22:51:28 +0000 2024",
+      "url": "https://twitter.com/elonmusk/status/1812258574049157405",
+      "stats": {
+        "reply_count": 68455,
+        "retweet_count": 371100,
+        "like_count": 3172380,
+        "quote_count": 40398
+      },
+      "images": [
+        "https://pbs.twimg.com/media/GSZvkScbIAAwHQi.jpg"
+      ]
+    },
+    {
+      "id": "1518623997054918657",
+      "text": "I hope that even my worst critics remain on Twitter, because that is what free speech means",
+      "published_at": "Mon Apr 25 16:12:30 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1518623997054918657",
+      "stats": {
+        "reply_count": 152982,
+        "retweet_count": 313826,
+        "like_count": 2842789,
+        "quote_count": 68462
+      },
+      "images": []
+    },
+    {
+      "id": "1854026234339938528",
+      "text": "🇺🇸🇺🇸The future is gonna be so 🔥 🇺🇸🇺🇸 https://t.co/x56cqb6oT5",
+      "published_at": "Wed Nov 06 05:01:15 +0000 2024",
+      "url": "https://twitter.com/elonmusk/status/1854026234339938528",
+      "stats": {
+        "reply_count": 56810,
+        "retweet_count": 192754,
+        "like_count": 2483092,
+        "quote_count": 12168
+      },
+      "images": [
+        "https://pbs.twimg.com/media/GbrTB8GXEAYrk2N.jpg"
+      ]
+    },
+    {
+      "id": "1519495072802390016",
+      "text": "Let’s make Twitter maximum fun!",
+      "published_at": "Thu Apr 28 01:53:50 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1519495072802390016",
+      "stats": {
+        "reply_count": 99477,
+        "retweet_count": 163847,
+        "like_count": 2324085,
+        "quote_count": 33691
+      },
+      "images": []
+    },
+    {
+      "id": "1518677066325053441",
+      "text": "🚀💫♥️ Yesss!!! ♥️💫🚀 https://t.co/0T9HzUHuh6",
+      "published_at": "Mon Apr 25 19:43:22 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1518677066325053441",
+      "stats": {
+        "reply_count": 128394,
+        "retweet_count": 295761,
+        "like_count": 2296848,
+        "quote_count": 59346
+      },
+      "images": [
+        "https://pbs.twimg.com/media/FRNsuSFWUAUW6aP.jpg"
+      ]
+    },
+    {
+      "id": "1519495982723084290",
+      "text": "Listen, I can’t do miracles ok https://t.co/z7dvLMUXy8",
+      "published_at": "Thu Apr 28 01:57:27 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1519495982723084290",
+      "stats": {
+        "reply_count": 67923,
+        "retweet_count": 179042,
+        "like_count": 2245289,
+        "quote_count": 24677
+      },
+      "images": [
+        "https://pbs.twimg.com/media/FRZViwWX0AMsqQ1.jpg"
+      ]
+    },
+    {
+      "id": "1854201929519247803",
+      "text": "It is morning in America again https://t.co/GNTE0cUWoc",
+      "published_at": "Wed Nov 06 16:39:24 +0000 2024",
+      "url": "https://twitter.com/elonmusk/status/1854201929519247803",
+      "stats": {
+        "reply_count": 66714,
+        "retweet_count": 197698,
+        "like_count": 2246807,
+        "quote_count": 10755
+      },
+      "images": [
+        "https://pbs.twimg.com/media/Gbty0ylX0BIEPA4.jpg"
+      ]
+    },
+    {
+      "id": "1585841080431321088",
+      "text": "the bird is freed",
+      "published_at": "Fri Oct 28 03:49:11 +0000 2022",
+      "url": "https://twitter.com/elonmusk/status/1585841080431321088",
+      "stats": {
+        "reply_count": 121538,
+        "retweet_count": 293650,
+        "like_count": 2169287,
+        "quote_count": 51725
+      },
+      "images": []
+    }
+  ]
+}
