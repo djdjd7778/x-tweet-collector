@@ -1,0 +1,59 @@
+name: Fetch Tweets & Save to GitHub
+
+on:
+  # 毎日 JST 9:00 に実行（UTC 0:00）
+  schedule:
+    - cron: "0 0 * * *"
+  # 手動実行も可能
+  workflow_dispatch:
+    inputs:
+      username:
+        description: "X username (without @)"
+        required: true
+        default: "elonmusk"
+      max_tweets:
+        description: "Max tweets to fetch"
+        required: false
+        default: "20"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # リポジトリへのコミットに必要
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch tweets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          USERNAME: ${{ github.event.inputs.username || 'elonmusk' }}
+          MAX_TWEETS: ${{ github.event.inputs.max_tweets || '20' }}
+        run: |
+          python -c "
+          import os, sys
+          sys.path.insert(0, '.')
+          from scraper.tweet_scraper import fetch_tweets
+          from scraper.github_saver import push_to_github
+
+          username = os.environ['USERNAME']
+          max_tweets = int(os.environ.get('MAX_TWEETS', 20))
+          print(f'Fetching tweets for @{username} (max={max_tweets})')
+
+          tweets = fetch_tweets(username, max_tweets=max_tweets)
+          if tweets:
+              push_to_github(username, tweets)
+          else:
+              print('No tweets fetched.')
+          "
